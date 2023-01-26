@@ -4,7 +4,7 @@ Quality Content for Everyone
 <p align="center">
   <a href="https://colab.research.google.com/github/saman-nia/Overtone/blob/main/Technical_Exercises_Overtone.ipynb">
     <img src="https://raw.githubusercontent.com/saman-nia/Overtone/main/colab.svg"
-         alt="Run the script in google colb" width="280" height="54">
+         alt="Run the script in google colb" width="300" height="54">
   </a>
 </p>
 
