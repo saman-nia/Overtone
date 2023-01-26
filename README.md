@@ -1,5 +1,13 @@
 # Overtone
-Quality Content for Everyone
+Quality Content for Everyone     
+     
+<p align="center">
+  <a href="https://colab.research.google.com/github/saman-nia/Overtone/blob/main/Technical_Exercises_Overtone.ipynb">
+    <img src="https://raw.githubusercontent.com/saman-nia/Overtone/main/colab.svg"
+         alt="Run the script in google colb" width="236" height="54">
+  </a>
+</p>
+
 
 The first exercise requires me to write a function in Python that takes in a set of synonyms and two sentences and returns a Boolean value indicating whether the sentences are equivalent according to the given synonyms. The second exercise is similar to the first one, but with the added assumption that (a, b) and (a, c) do imply (b, c). This means that if two words are synonyms, and one of them is synonym with a third word, then the second and the third words are also synonyms.
 
