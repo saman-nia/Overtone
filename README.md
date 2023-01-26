@@ -13,11 +13,11 @@ The first exercise requires me to write a function in Python that takes in a set
 
 Below are the steps to solve both problems. By step four, both exercises have the same solution. Only for the second exercise, one more step should be added to the solution.
 
-1- Breaking down text into a list of words.
-2- Case-insensitivity: Converting text to lowercase makes it case-insensitive.
-3- If one word is in the given set of synonyms, replace each word in the list with its synonym.
-4- Finally, compare the final lists of words and if they are the same, the sentences are equivalent.
-5- JUST FOR THE SECOND EXERCISE: Repeat steps 3 and 4 for any new synonyms that are found until there is no more synonyms in the lists.
+- Breaking down text into a list of words.
+- Case-insensitivity: Converting text to lowercase makes it case-insensitive.
+- If one word is in the given set of synonyms, replace each word in the list with its synonym.
+- Finally, compare the final lists of words and if they are the same, the sentences are equivalent.
+- JUST FOR THE SECOND EXERCISE: Repeat steps 3 and 4 for any new synonyms that are found until there is no more synonyms in the lists.
 
 In the script, I've defined a function called ***comparable()*** which accepts four parameters: a set of synonyms, two sentences and an additional parameter implies that is set to False by default. If implies is set to true, the function will solve the second task by using the while loop to replace words with synonyms found in the previous iteration, if not, the function will solve the first task by using the initial way of replacing.
 
