@@ -29,6 +29,8 @@ This repository contains a Python script that implements a function for comparin
 
 * [![Python][Python.com]][Python-url]
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- Usage -->
 # Usage
 To use the function, simply import the script and call the comparable() function with the desired parameters. For example:
@@ -43,14 +45,17 @@ To use the function, simply import the script and call the comparable() function
      print(comparable(synonyms, sentence1, sentence2)) # Output: "The sentences are equivalent"
 
    ```
-
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Optimization -->
 # Optimization
 In the case of having a large dataset, a similar way to solve this problem would be to use a natural language processing library such as NLTK to tokenize the sentences and then compare the resulting list of words.
 Alternatively, using a word embedding model such as word2vec to find semantically similar words and then compare the resulting list of words. Another solution would be to use a pre-trained model for text classification such as BERT, to encode the input sentences and then compare the resulting embeddings using a similarity metric such as cosine similarity.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Note -->
 # Note
 This script is a basic implementation. It is not optimized for large datasets or real-world use cases.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
