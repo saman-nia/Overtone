@@ -30,9 +30,27 @@ This repository contains a Python script that implements a function for comparin
 - sentence2: the second sentence to be compared
 - implies (optional, default=False): a boolean value indicating whether the additional assumption (a, b) and (a, c) do imply (b, c) should be used
 
+```python
+   const API_KEY = 'ENTER YOUR API';
+   ```
 
+<!-- Usage -->
+# Usage
 
-In the script, I've defined a function called ***comparable()*** which accepts four parameters: a set of synonyms, two sentences and an additional parameter implies that is set to False by default. If implies is set to true, the function will solve the second task by using the while loop to replace words with synonyms found in the previous iteration, if not, the function will solve the first task by using the initial way of replacing.
+To use the function, simply import the script and call the comparable() function with the desired parameters. For example:
+
+```python
+     from synonym_comparator import comparable
+
+     synonyms = {"happy": "content", "sad": "unhappy"}
+     sentence1 = "I am happy"
+     sentence2 = "I am content"
+
+     print(comparable(synonyms, sentence1, sentence2)) # Output: "The sentences are equivalent"
+
+   ```
+
+The function accepts four parameters: a set of synonyms, two sentences and an additional parameter implies that is set to False by default. If implies is set to true, the function will solve the second task by using the while loop to replace words with synonyms found in the previous iteration, if not, the function will solve the first task by using the initial way of replacing.
 
 This function compares two sentences and checks if they are equal or not. It first converts the sentences to lowercase and tokenizes them (i.e. breaking them down into individual words). Then, it replaces certain words in the sentences with their synonyms, specified in the input "synonyms" dictionary. Finally, it compares the two lists of words and returns a string indicating whether the sentences are equal or not.
 
