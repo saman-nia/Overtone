@@ -30,6 +30,7 @@ This repository contains a Python script that implements a function for comparin
 - implies (optional, default=False): a boolean value indicating whether the additional assumption (a, b) and (a, c) do imply (b, c) should be used
 
 * [![Python][Python.org]][Python-url]
+* [![Next][Next.js]][Next-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
