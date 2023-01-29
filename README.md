@@ -3,15 +3,12 @@
 <p align="center">
   <a href="https://colab.research.google.com/github/saman-nia/Overtone/blob/main/Technical_Exercises_Overtone.ipynb">
     <img src="https://raw.githubusercontent.com/saman-nia/Overtone/main/colab.svg"
-         alt="Run the script in google colb" width="300" height="54">
+         alt="Run the script in google colb" width="200" height="40">
   </a>
 </p>
 
-
-
 <!-- About The Project -->
 # About The Project
-
 The function first converts the sentences to lowercase and tokenizes them into individual words. Then, it replaces certain words in the sentences with their synonyms, specified in the input "synonyms" dictionary. Finally, it compares the two lists of words and returns a string indicating whether the sentences are equal or not. Below are the steps to solve both problems. By step four, both exercises have the same solution. Only for the second exercise, one more step should be added to the solution.
 
 - Breaking down text into a list of words.
@@ -30,13 +27,8 @@ This repository contains a Python script that implements a function for comparin
 - sentence2: the second sentence to be compared
 - implies (optional, default=False): a boolean value indicating whether the additional assumption (a, b) and (a, c) do imply (b, c) should be used
 
-```python
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
 <!-- Usage -->
 # Usage
-
 To use the function, simply import the script and call the comparable() function with the desired parameters. For example:
 
 ```python
