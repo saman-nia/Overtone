@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://colab.research.google.com/github/saman-nia/Overtone/blob/main/Technical_Exercises_Overtone.ipynb">
     <img src="https://raw.githubusercontent.com/saman-nia/Overtone/main/colab.svg"
-         alt="Run the script in google colb" width="200" height="40">
+         alt="Run the script in google colb" width="200" height="36">
   </a>
 </p>
 
