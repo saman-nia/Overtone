@@ -1,5 +1,4 @@
-# Overtone
-Quality Content for Everyone     
+# Quality Content for Everyone     
      
 <p align="center">
   <a href="https://colab.research.google.com/github/saman-nia/Overtone/blob/main/Technical_Exercises_Overtone.ipynb">
@@ -9,15 +8,29 @@ Quality Content for Everyone
 </p>
 
 
-The first exercise requires me to write a function in Python that takes in a set of synonyms and two sentences and returns a sentence indicating whether the sentences are equivalent according to the given synonyms. The second exercise is similar to the first one, but with the added assumption that (a, b) and (a, c) do imply (b, c). This means that if two words are synonyms, and one of them is synonym with a third word, then the second and the third words are also synonyms.
 
-Below are the steps to solve both problems. By step four, both exercises have the same solution. Only for the second exercise, one more step should be added to the solution.
+<!-- About The Project -->
+# About The Project
+
+The function first converts the sentences to lowercase and tokenizes them into individual words. Then, it replaces certain words in the sentences with their synonyms, specified in the input "synonyms" dictionary. Finally, it compares the two lists of words and returns a string indicating whether the sentences are equal or not. Below are the steps to solve both problems. By step four, both exercises have the same solution. Only for the second exercise, one more step should be added to the solution.
 
 - Breaking down text into a list of words.
 - Case-insensitivity: Converting text to lowercase makes it case-insensitive.
 - If one word is in the given set of synonyms, replace each word in the list with its synonym.
 - Finally, compare the final lists of words and if they are the same, the sentences are equivalent.
 - JUST FOR THE SECOND EXERCISE: Repeat steps 3 and 4 for any new synonyms that are found until there is no more synonyms in the lists.
+
+
+<!-- Built With -->
+# Built With
+This repository contains a Python script that implements a function for comparing two sentences and determining whether they are equivalent according to a given set of synonyms. The function, called comparable(), has the following parameters:
+
+- synonyms: a set of synonyms in the form of a dictionary
+- sentence1: the first sentence to be compared
+- sentence2: the second sentence to be compared
+- implies (optional, default=False): a boolean value indicating whether the additional assumption (a, b) and (a, c) do imply (b, c) should be used
+
+
 
 In the script, I've defined a function called ***comparable()*** which accepts four parameters: a set of synonyms, two sentences and an additional parameter implies that is set to False by default. If implies is set to true, the function will solve the second task by using the while loop to replace words with synonyms found in the previous iteration, if not, the function will solve the first task by using the initial way of replacing.
 
