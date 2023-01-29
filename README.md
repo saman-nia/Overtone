@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://colab.research.google.com/github/saman-nia/Overtone/blob/main/Technical_Exercises_Overtone.ipynb">
     <img src="https://raw.githubusercontent.com/saman-nia/Overtone/main/colab.svg"
-         alt="Run the script in google colb" width="200" height="36">
+         alt="Run the script in google colb" width="200" height="33">
   </a>
 </p>
 
@@ -42,8 +42,14 @@ To use the function, simply import the script and call the comparable() function
 
    ```
 
-The function accepts four parameters: a set of synonyms, two sentences and an additional parameter implies that is set to False by default. If implies is set to true, the function will solve the second task by using the while loop to replace words with synonyms found in the previous iteration, if not, the function will solve the first task by using the initial way of replacing.
 
-This function compares two sentences and checks if they are equal or not. It first converts the sentences to lowercase and tokenizes them (i.e. breaking them down into individual words). Then, it replaces certain words in the sentences with their synonyms, specified in the input "synonyms" dictionary. Finally, it compares the two lists of words and returns a string indicating whether the sentences are equal or not.
+Optimization
+<!-- Optimization -->
+# Optimization
+In the case of having a large dataset, a similar way to solve this problem would be to use a natural language processing library such as NLTK to tokenize the sentences and then compare the resulting list of words.
+Alternatively, using a word embedding model such as word2vec to find semantically similar words and then compare the resulting list of words. Another solution would be to use a pre-trained model for text classification such as BERT, to encode the input sentences and then compare the resulting embeddings using a similarity metric such as cosine similarity.
 
-However, in the case of having a large dataset, a similar way to solve this problem would be to use a natural language processing library such as NLTK to tokenize the sentences and then compare the resulting list of words, however as mentioned, it requires having a large dataset to train a model and solve any test sets. So, instead of using a dictionary to replace words with their synonyms, I could also use a word embedding model such as word2vec to find semantically similar words and then compare the resulting list of words. Another solution would be to use a pre-trained model for text classification such as BERT, to encode the input sentences and then compare the resulting embeddings using a similarity metric such as cosine similarity.
+
+<!-- Note -->
+# Note
+This script is a basic implementation. It is not optimized for large datasets or real-world use cases.
